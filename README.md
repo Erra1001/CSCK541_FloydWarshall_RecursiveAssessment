@@ -1,23 +1,47 @@
 # CSCK541_FloydWarshall_RecursiveAssessment
 
-## Overview
-This repository contains code and tests for the Floyd-Warshall algorithm implemented both recursively and iteratively, as part of the CSCK541 course assignment.
+The Floyd-Warshall algorithm is implemented in this repository using both an imperative and a recursive approach. The codebase includes unit tests as well as performance tests for evaluation.
 
-## Installation & Setup
+## Installation and Execution
 
-1. **Clone Repository**:  
-   `git clone https://github.com/Erra1001/CSCK541_FloydWarshall_RecursiveAssessment.git`
+### Installation
 
-2. **Navigate into Directory**:  
-   `cd CSCK541_FloydWarshall_RecursiveAssessment`
+1. Download the repository by clicking the "Download ZIP" button on GitHub, or clone the repository using the following command:
 
-3. **Install Dependencies**:  
-   `pip install -r requirements.txt`
+    ```bash
+    git clone https://github.com/Erra1001/CSCK541_FloydWarshall_RecursiveAssessment.git
+    ```
 
-## Running Tests
+2. Navigate into the directory:
 
-- **Unit Tests**:  
-  `python -m unittest test_floyd_recursive.py`
+    ```bash
+    cd CSCK541_FloydWarshall_RecursiveAssessment
+    ```
 
-- **Performance Tests**:  
-  `python performance_floyd.py`
+3. Install required dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Running the Code
+
+You can run the code in two ways:
+
+1. Through any Python IDE (PyCharm, Jupyter, etc.)
+    - Open `floyd_recursive.py` or `floyd_iterative.py` and run the script.
+
+2. Through the command line
+    - Navigate to the folder `CSCK541_FloydWarshall_RecursiveAssessment` and execute the following command to run unit tests:
+
+        ```bash
+        python -m unittest test_floyd_recursive.py
+        ```
+    
+    - To run performance tests:
+
+        ```bash
+        python performance_floyd.py
+        ```
+
+Feel free to explore and adapt as per your needs!
