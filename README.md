@@ -2,6 +2,10 @@
 
 The Floyd-Warshall algorithm is implemented in this repository using both an imperative and a recursive approach. The codebase includes unit tests as well as performance tests for evaluation.
 
+## Methodology
+
+This project was developed with a focus on comparing iterative and recursive implementations of the Floyd-Warshall algorithm. We have included unit tests for both versions and performance tests to evaluate the efficiency of each approach.
+
 ## Installation and Execution
 
 ### Installation
@@ -37,11 +41,23 @@ You can run the code in two ways:
         ```bash
         python -m unittest test_floyd_recursive.py
         ```
-    
+        
+        ```bash
+        python -m unittest test_floyd_iterative.py
+        ```
+
     - To run performance tests:
 
         ```bash
         python performance_floyd.py
         ```
+
+## Upcoming Features and TODOs
+- Add more unit tests for edge cases.
+- Explore and implement optimization techniques for both versions.
+
+## Accessibility
+
+This repository is public and can be accessed directly from the link provided in this report and any other submitted materials.
 
 Feel free to explore and adapt as per your needs!
